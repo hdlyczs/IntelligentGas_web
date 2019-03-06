@@ -26,6 +26,7 @@
     </div>
 </template>
 <script>
+    import {indexManagementService} from '../../service/index';
     import echarts from 'echarts';
     export default {
         data(){
