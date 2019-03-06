@@ -1,0 +1,177 @@
+
+/*logo部分*/
+.anheng_login .login_content .el-form-item__error{
+  text-align: left;
+}
+
+.header-top{
+  /*background-color: #2372e9;*/
+}
+.header-top .logo{
+  /*background-color:#fff;*/
+}
+/*wrapper样式*/
+.content .top-bar{
+  /*background-color: red;*/
+}
+
+.content-bar .menu-bar{
+  /*background-color:red;*/
+  /*color:#fff;*/
+}
+.content-bar .menu-bar ul{
+  /*background-color:red;*/
+}
+.el-menu-item, .el-submenu__title{
+  /*color:#fff;*/
+}
+.el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active, .el-menu-item.is-active {
+  /*color:#000;*/
+}
+/* 统一的全局设置 */
+  /* element2.20 form 表单验证带验证的提示框变为绿色了，如下改为蓝色 */
+  .el-form-item.is-success .el-input__inner, .el-form-item.is-success .el-input__inner:focus, .el-form-item.is-success .el-textarea__inner, .el-form-item.is-success .el-textarea__inner:focus {
+      border-color: #409eff !important;
+  }
+  /*提示弹窗的宽度 */
+  .prompt-dialog{
+    min-width: 400px !important;
+  }
+  /* 提示信息权重 */
+  .el-message{
+    z-index: 2600 !important;
+  }
+  /* 改变element UI 2.20的菜单导航栏 */
+  .el-menu-item-group ul li{
+    /*background:#dcdfe6 !important;*/
+    padding-left: 70px !important;
+  }
+  .el-submenu .el-menu-item:hover{
+    /*background-color:rgb(190,193,197) !important;*/
+  }
+  .el-menu-item-group__title{
+    /*background-color: #dcdfe6;*/
+  }
+  .el-menu{
+    border: none !important;
+  }
+  /* 修改element UI table表格颜色风格 */
+  .el-table thead {
+      color: #222 !important;
+  }
+  .el-table{
+    color: #1f2d3d !important;
+  }
+
+
+  /* 左侧导航栏的菜单相应 */
+  @media only screen and (min-width: 1440px){
+      .el-aside{
+        width:225px !important;
+      }
+      .el-main{
+        padding-left:225px !important;
+      }
+  }
+  @media only screen and (min-width: 1680px){
+      .el-aside{
+        width:225px !important;
+      }
+      .el-main{
+       padding-left:225px !important;
+      }
+  }
+  @media only screen and (min-width: 1920px){
+      .el-aside{
+        width:250px !important;
+      }
+      .el-main{
+        padding-left:250px !important;
+      }
+  }
+  @media only screen and (min-width: 2560px){
+      .el-aside{
+        width:300px !important;
+      }
+      .el-main{
+        padding-left:300px !important;
+      }
+  }
+  @media only screen and (min-width: 3840px){
+      .el-aside{
+        width:300px !important;
+      }
+      .el-main{
+        padding-left:300px !important;
+      }
+  }
+/* 系统配置的弹窗宽度 */
+.config-dialog {
+  width: 400px !important;
+}
+.regional-dialog{
+  width: 400px !important;
+}
+.banner-dialog{
+  width: 700px !important;
+}
+.setSure-dialog{
+  width: 800px !important;
+}
+.el-table th{
+  background:#f4f4f4 !important;
+}
+/* 鼠标移上去效果 宽度*/
+.el-tooltip__popper{
+  max-width:250px !important;
+  word-break:break-all;
+  letter-spacing:1px;
+}
+/*新建任务label*/
+.new_task .main .wrap_from .el-form-item{
+  margin-left:300px;
+}
+/*任务详情*/
+.task_detail .task_query .detail_left .el-form-item__content span{
+  line-height: 38px !important;
+}
+.task_detail .task_query .detail_right .el-form-item__label,.el-form-item__content{
+  line-height: 24px;
+}
+.task_detail .task_query .detail_right .el-form-item{
+  margin-left:10px;
+  width:460px;
+  border-bottom:1px dashed #ccc;
+}
+
+.task_detail .task_query .detail_right .reset_item{
+  border-bottom:0;
+}
+.task_detail .task_query .detail_left .three-progress .el-form-item__content{
+  float:left;
+  line-height:38px;
+}
+/*
+
+!*漏洞详情*!
+.loophole_detail .task_query .detail_left .el-form-item__label,.el-form-item__content{
+  line-height: 28px !important;
+}
+.loophole_detail .task_query .detail_left .el-form-item{
+  padding-bottom: 20px;
+  width:480px;
+  border-bottom:1px dashed #ccc;
+}
+*/
+
+
+/*
+
+!* 时间日期空间最底下字体大小 *!
+.el-picker-panel__footer{font-size: 12px !important;}
+
+!*用户管理*!
+.user .main .updateForm .el-form-item__error{
+  padding-top: 0 !important;
+}
+*/
